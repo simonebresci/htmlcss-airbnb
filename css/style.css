@@ -14,20 +14,33 @@
 
 /* Container di tutte le città */
 .container-all-cities{
-
+  width: 100vw; /* All screen */
+  padding:20px;
+  /* border: 1px solid red; */
+  background-color: orange;
 }
 /* Container di tutte le città */
 
 
 /* Container città generica */
 .container-city{
-
+  width: 100%; /* prendi altezza di container padre */
+  /* border: 1px solid orange; */
 }
 /* /Container città generica */
 
+.img-city{
+  width: 40vw; /*Sottraggo padding al valore di larghezza */
+  border: 1px solid blue;
+
+}
 
 /* Contenitore debug */
 .container-debug{
+  /* position: absolute;
+  top:0;
+  left:0;
+  opacity:30%; */
   color: white;
   width: 400px;
   border: 5px solid violet;
