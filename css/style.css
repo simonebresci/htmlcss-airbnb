@@ -2,5 +2,51 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: blue;
 }
+
+/* Contenitore di tutto il sito */
+
+.container-content{
+
+}
+/* /Contenitore di tutto il sito */
+
+
+/* Container di tutte le città */
+.container-all-cities{
+
+}
+/* Container di tutte le città */
+
+
+/* Container città generica */
+.container-city{
+
+}
+/* /Container città generica */
+
+
+/* Contenitore debug */
+.container-debug{
+  color: white;
+  width: 400px;
+  border: 5px solid violet;
+  background-color: black;
+
+}
+/* /Contenitore debug */
+
+/* ##### UTILITIES ##### */
+
+.badge{
+
+}
+
+.layer-trasparent{
+
+}
+
+
+
+
+/* ##### /UTILITIES ##### */
