@@ -12,6 +12,7 @@
 /* Contenitore di tutto il sito */
 
 .container-content{
+  width: 100vw;
 
 }
 /* /Contenitore di tutto il sito */
@@ -19,7 +20,7 @@
 
 /* Container di tutte le città */
 .container-all-cities{
-  width: 100vw; /* All screen */
+  width: 100%; /* Prendi dimensioni dal padre */
   /* padding: 20px 0px; */
   /* border: 1px solid red; */
   background-color: orange;
@@ -37,7 +38,7 @@
 
 .img-city{
   width: 100%; /*Sottraggo padding al valore di larghezza */
-  background-size: contain;
+  background-size: cover;
   /* border: 1px solid blue; */
 
 }
@@ -84,7 +85,7 @@
   left:0;
   background-color: black;
   opacity:80%;
-  border: 10px solid violet;
+  /* border: 10px solid violet; */
 }
 /* /Layer trasparente sull'immagine */
 
