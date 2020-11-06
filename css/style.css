@@ -1,16 +1,12 @@
-/* Rirocrda
-1) Aggiungere padding fra le foto
-
-*/
 
 *{
+  /* Inizializza box, margini e padding */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 /* Contenitore di tutto il sito */
-
 /* Container eliminato perchè crea problemi di larghezza */
 /* .container-content{
   width: 100vw;
@@ -22,8 +18,7 @@
 /* Container di tutte le città */
 .container-all-cities{
   width: 100%; /* Prendi dimensioni dal padre */
-  /* border: 1px solid red; */
-  background-color: orange;
+  background-color: black;
 }
 /* Container di tutte le città */
 
@@ -32,51 +27,48 @@
 .container-city{
   position: relative;
   width: 100%; /* prendi altezza di container padre */
-  /* border: 1px solid orange; */
+  margin-bottom: 20px;
 }
 /* /Container città generica */
 
+/* Immagine città */
 .img-city{
   width: 100%; /*Sottraggo padding al valore di larghezza */
   background-size: cover;
-  /* border: 1px solid blue; */
-
 }
+/* /Immagine città */
 
-/* Contenitore debug */
-.container-debug{
-  /* position: absolute;
-  top:0;
-  left:0;
-  opacity:30%; */
-  color: white;
-  width: 400px;
-  border: 5px solid violet;
-  background-color: black;
-
-}
-/* /Contenitore debug */
 
 /* ##### UTILITIES ##### */
-
 .badge{
   position: absolute;
+
+  /* Porta in sovraimpressione */
   z-index: 2; /* nota: Funziona solo con position != da static */
+  /* Centratura badge */
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
-  /* width: 80%; */
+  /* /Centratura badge */
+
+  /* Abbellimenti grafici */
   padding: 0 20px;
   border-radius: 20px;
-  font-size: 72px;
+  font-family: 'Cinzel', serif;
+  font-size: 10vh;
   font-weight: bold;
   text-align: center;
   color:white;
-  background-color: black;
-  opacity: 65%;
-
-
+  background-color: rgba(0,0,0,0.2);
+  box-shadow: 10px 10px rgba(0,0,0,0.5);
+  text-shadow: 10px 10px rgba(0,0,0,0.5);
 }
+
+.badge:hover {
+  background-color: rgba(0,0,0,0.8);
+  border: 5px solid rgba(255,0,0,0.5);
+}
+
 
 /* Layer trasparente sull'immagine */
 .layer-transparent{
@@ -86,19 +78,13 @@
   top:0;
   left:0;
   background-color: black;
-  color:white;
   opacity:50%;
   /* border: 10px solid violet; */
 }
 
 .layer-transparent:hover{
-  opacity:20%;
+  opacity:30%;
 }
 /* /Layer trasparente sull'immagine */
-
-
-
-
-
 
 /* ##### /UTILITIES ##### */
